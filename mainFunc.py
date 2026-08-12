@@ -1,0 +1,3 @@
+import jay
+
+jay.welcome()
