@@ -1,10 +1,5 @@
 import random 
 
-user = int(input("Enter 1 for snake, 2 for water, 3 for gun: "))
-comp = random.randint(1,3)
-
-print(f"user gave {user} computer said {comp}")
-
 def game(user, comp):
     if(user == comp):
         print("Match Draw!")
@@ -18,5 +13,10 @@ def game(user, comp):
         print("computer won!")
     else:
         print("computer won!")
+user = int(input("Enter 1 for snake, 2 for water, 3 for gun: "))
+comp = random.randint(1,3)
+
+print(f"user gave {user} computer said {comp}")
+
 
 game(user, comp)
